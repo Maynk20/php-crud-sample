@@ -7,7 +7,7 @@
 
 // Gmail Configuration
 define('GMAIL_EMAIL', 'thakkarrmayank@gmail.com');      // Your Gmail address
-define('GMAIL_PASSWORD', 'nfqchxwzwqazyrbp');       // Your Gmail App Password (NOT your regular password)
+define('GMAIL_PASSWORD', '');       // Your Gmail App Password (NOT your regular password)
 
 /**
  * Send Email using Gmail SMTP
