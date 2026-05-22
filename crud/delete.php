@@ -3,7 +3,7 @@ require_once dirname(__DIR__) . "/db.php";
 
 $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : 0 ;
 
-$sqlDelete = "DELETE FROM emp WHERE id = ?"; 
+$sqlDelete = "DELETE FROM user WHERE id = ?"; 
 $stmt = $conn->prepare($sqlDelete); 
 $stmt->bind_param("i", $id); 
 $stmt->execute(); 
